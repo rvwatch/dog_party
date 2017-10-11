@@ -1,0 +1,208 @@
+/*------------------------------------*\
+    RESET
+\*------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0b1 | 201101 
+    NOTE:WORK IN PROGRESS
+    USE WITH CAUTION AND TEST WITH ABANDON */
+
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+    display:block;
+}
+body{
+    line-height:1;
+    font-family: 'Raleway', sans-serif;
+}
+ol,ul{
+    list-style:none;
+}
+blockquote,q{
+    quotes:none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after{
+    content:’’;
+    content:none;
+}
+/* remember to define visible focus styles! 
+:focus{
+    outline:?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins{
+    text-decoration:none;
+}
+del{
+    text-decoration:line-through;
+}
+
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+
+
+
+
+/*------------------------------------*\
+    $MAIN
+\*------------------------------------*/
+
+header{
+    background-image: url(images/park.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    height: 500px;
+    text-align: center;
+    width: 100%;
+}
+
+header h1{
+    font-size:30px;
+    font-weight: lighter;
+    font-family: helvetica;
+    width: 350px;
+    text-align:center;
+    margin:20px auto;
+}
+
+header h1 .main-doggo{
+    border-radius: 100%;
+    border: 4px solid #148FAB;
+    display:block;
+    margin:20px auto;
+}
+
+
+header h1 button{
+    border:2px solid #148FAB;
+    background-color: #fff;
+    color:#148FAB;
+    font-size: 20px;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+header nav{
+    margin:0;
+    background-color: #76E4E8;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+header nav .dog-icon{
+    position: absolute;
+    left: 20px;
+    top:5px;
+    width:30px;
+}
+
+header nav ul{
+    position: absolute;
+   right: 20px;
+}
+
+header nav ul li{
+    display: inline;
+    font-size: 15px;
+    padding: 0 0 0 20px;
+}
+
+header nav ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding: 20px 0 20px 20px;
+}
+
+article{
+    width:30.5%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin:0;
+    min-width: 150px;
+    padding: 0 10px;
+}
+
+article p{
+    min-height: 150px;
+    padding-bottom: 20px;
+}
+
+section article img{
+    border-radius: 100%;
+    border: 4px solid #148FAB;
+    display:block;
+    margin:10px auto;
+    width:150px;
+}
+
+section article button{
+    border:2px solid #148FAB;
+    background-color: #fff;
+    color:#148FAB;
+    font-size: 20px;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: #118EAA;
+    padding:20px;
+    text-align: center;
+}
+
+footer h3{
+    margin: 0 0 30px 0;
+    color:#fff;
+}
+
+footer ul{
+    margin:0 0 20px 0;
+}
+
+
+footer ul li{
+    display: inline;
+    margin:0 25px;
+
+}
+
+footer a#git{
+color:#fff;
+}
